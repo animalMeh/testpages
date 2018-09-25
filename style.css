@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #EBEBEB;
+}
+
+.org {
+	background-color: #BC8F8F;
+}
+
+
+.wrapper {
+	margin: 0 auto;
+	width: 67%;
+}
+.header {
+	margin-top: 30px;
+}
+
+.header nav {
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+.header li {
+	padding-right: 27px;
+	display: inline-block;
+}
+
+.header a:link, a:visited {
+	line-height: 50px;
+	display: block;
+	font-size: 19px;
+	color: white;
+	text-decoration: none;
+}
+
+.header a:hover {
+	text-decoration: underline;
+	color: #BC8F8F;
+	background-color: white;
+}
+
+#active a{
+	text-decoration: underline;
+}
+
+section {
+	background-color: white;
+	position: relative;
+}
+
+.bar {
+	float: right;
+	width: 30%;
+	display: inline;
+}
+
+.sidecontent {
+	padding: 0 15px;
+}
+
+.bar p {
+	font-size: 13px;
+	text-align: justify;
+	padding-top: 10px;
+	margin: 0;
+}
+
+.bar h1 {
+	padding: 0;
+	padding-top: 15px;
+	margin: 0;
+	font-size: 20px;
+}
+
+.content {
+	margin-right: 30%;
+	padding-left: 20px;
+	padding-top: 25px;
+	padding-bottom: 20px;
+}
+
+.content h1,img {
+	margin: 0;
+	padding: 0;
+}
+
+.content p {
+	text-align: justify;
+	margin: 10px 0;
+}
+
+.content h1 {
+	font-size: 20px;
+}
+
+.content img {
+	width: 99.8%;
+}
+
+.content table {
+	margin: 10px 0;
+	width: 100%;
+}
+
+th, td {
+	border:1px solid black;
+	text-align: center;
+}
+
+th {
+	background-color:#BC8F8F;
+}
+
+.footer {
+	text-align: center;
+	line-height: 70px;
+	font-size: 12px;
+	color:white;
+	margin-bottom: 50px;
+}
+
+.clearfix {
+	clear: both;
+}
